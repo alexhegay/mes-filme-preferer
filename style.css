@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-align: center;
+}
+div{
+    border: 2px solid;
+    display: inline-block;/*разрешает другим блокам вставать рядом*/
+    padding: 0 15px 15px 15px;/*отступ внутри*/
+    margin: 0 20px 0 20px;/*отступ сноружи (внешний) */
+    box-shadow: 0 0 20px white;/*тень*/
+}
+img{
+    display: block;
+    width: 250px;
+    height: 350px;
+}
+a{
+    color: white;
+    font-size: 25px;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+.flash{
+    box-shadow: 0 0 15px red;
+}
+.hobbs{
+    box-shadow: 0 0 15px yellow;
+}
+.cyter{
+    box-shadow: 0 0 15px rgb(0, 174, 255);
+}
+
